@@ -2,7 +2,7 @@
 import argparse
 import sys
 import os
-from pyprivacytool import remove_metadata as metadata_remover
+from pyprivacytool import remove_metadata
 from pyprivacytool import secure_delete
 
 # Add the parent directory to sys.path
@@ -39,7 +39,7 @@ def main():
         action="store_true",
         help="List supported file formats and exit.",
     )
-    parser_metadata.set_defaults(func=metadata_remover.main)
+    parser_metadata.set_defaults(func=remove_metadata.main)
 
     # Secure Delete Subcommand
     parser_delete = subparsers.add_parser(
