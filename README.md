@@ -149,10 +149,6 @@ The `remove-metadata` tool supports the following file formats:
 
 Contributions are welcome! Please read CONTRIBUTING.md for details on how to contribute to this project.
 
-6. **Create a Pull Request**
-
-   Go to your fork on GitHub and click "New Pull Request."
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
